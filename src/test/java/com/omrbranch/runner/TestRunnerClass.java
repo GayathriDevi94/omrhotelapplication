@@ -12,7 +12,7 @@ import com.omrbranch.reports.Reporting;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import io.cucumber.junit.CucumberOptions.SnippetType;
-
+//cucumber project
 @RunWith(Cucumber.class)
 @CucumberOptions(tags = "", stepNotifications = true, snippets = SnippetType.CAMELCASE, dryRun = false, publish = true, monochrome = true, plugin = {
 		"pretty",
